@@ -4,12 +4,12 @@
     "dictionaries": ["jsdoc", "closure"]
   },
   "source": {
-    "include": ["src/simpleLoan", "src/advancedLoan", "src/common", "src/simple", "src/advanced"],
+    "include": ["src/simpleLoan", "src/common", "src/simple"],
     "includePattern": ".+\\.js(doc|x)?$",
     "excludePattern": "(^|\\/|\\\\)_"
   },
   "opts": {
-    "destination": "doc/powerloan",
+    "destination": "doc/powerloan-light/",
     "recurse": true,
     "template": "node_modules/docdash",
     "readme": "./README.md"
@@ -40,7 +40,7 @@
     "outputSourceFiles": true,
     "outputSourcePath": true,
     "logoFile": "",
-    "systemName": "PowerLoan Documentation",
+    "systemName": "PowerLoan-Light Documentation",
     "footer": "Copyright © 2024 Emmanuel FRANCOIS - Hauts-de-France - France.",
     "copyright": "Copyright © 2024 Emmanuel FRANCOIS - Hauts-de-France - France.",
     "collapseSymbols": false,

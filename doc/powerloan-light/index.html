@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Home - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/EmmanuelFRANCOIS/powerLoan/" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Classes</h3><ul><li><a href="SimpleLoan.html">SimpleLoan</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+
+    
+
+
+
+    
+
+
+    <section class="package">
+        <h3> </h3>		
+    </section>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <section class="readme usertext">
+        <article><h1>PowerLoan</h1>
+<p><strong>PowerLoan</strong> is a comprehensive JavaScript library for performing a wide range of loan calculations.
+<strong>PowerLoan</strong> provide common, simple, and advanced loan calculations functions, making it suitable for a variety of financial applications.
+<strong>PowerLoan</strong> library is organized into three main packages: common, simple, and advanced, each containing functions tailored to different levels of calculation complexity.</p>
+<h2>Disclaimer</h2>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>NOTABLY, THE AUTHOR OF POWERLOAN IS NOT A BANKER, LENDER, FINANCIAL ADVISOR NOR EXPERT IN FINANCE. CONSEQUENTLY, THERE IS NO WARRANTY THAT THE RESULTS OF CALCULATIONS ARE EXACT, PRECISE, OR SUITABLE FOR ANY SPECIFIC FINANCIAL DECISIONS. THE CALCULATED RESULTS FROM THIS LIBRARY CANNOT AND SHOULD NOT BE USED AS LEGAL EVIDENCE, FINANCIAL ADVICE, OR A DEFINITIVE BASIS FOR MAKING FINANCIAL COMMITMENTS OR DECISIONS. USERS MUST EXERCISE THEIR JUDGMENT AND ASSUME ALL RISKS ASSOCIATED WITH THE USE OF POWERLOAN, ACKNOWLEDGING THAT THE AUTHOR IS NOT RESPONSIBLE FOR ANY FINANCIAL LOSS, DISCREPANCIES IN CALCULATION OUTCOMES, OR ANY ADVERSE CONSEQUENCES RESULTING FROM THE APPLICATION OF INFORMATION OBTAINED FROM THIS SOFTWARE.</p>
+<h2>Features</h2>
+<ul>
+<li>two classes ready for use : <strong>simpleLoan</strong> and <strong>advancedLoan</strong>
+<ul>
+<li><strong>simpleLoan</strong> class implement basic loan properties : capital, duration, interest type and rate, repayment periodicity and amount...</li>
+<li><strong>advancedLoan</strong> class implement advanced loan properties : capital borrowed and releases, duration, interest type and rate, fees, insurance, repayment delay, periodicity and amount, early repayment...</li>
+</ul>
+</li>
+<li>class <strong>members</strong> (properties) with default values and validation</li>
+<li>many <strong>internal automatic calculations</strong> to simplify library usage and implementation</li>
+<li>complete set of <strong>simple and advanced Loan calculations</strong></li>
+<li><strong>modular architecture</strong> :
+<ul>
+<li>allowing for easy integration and customization</li>
+<li>built with <strong>ESM (ES Modules)</strong> ready for tree shaking and bundle size optimization</li>
+</ul>
+</li>
+<li>high precision calculations using <strong>big.js</strong> library</li>
+<li>extensive date manipulation capabilities with <strong>Day.js</strong> library</li>
+<li>fully tested with automated <strong>unit testing</strong> (thanks to Jest)</li>
+<li>fully <strong>documented</strong> (thanks to JSDoc)</li>
+<li>published on <strong>NPM</strong> to be integrated in web or mobile Javascript apps</li>
+</ul>
+<h2>Warning - Missing advanced features</h2>
+<p>I decided to publish <strong>PowerLoan</strong> on GitHub and NPM to offer to beginning developers an example as complete and well organized as possible, as a starting point or template to help them build their own JS libraries.</p>
+<p>However, I'm building <strong>PowerLoan</strong> library mainly to be used by my <strong>MyLoans</strong> web and mobile app.</p>
+<p>And I want this <strong>MyLoans</strong> app to keep a competitive edge toward other loan calculation apps available on the web or on app stores.</p>
+<p>This is the reason why :</p>
+<ul>
+<li>I don't provide <strong>AdvancedLoan class</strong> nor <strong>advanced functions</strong> code for now.</li>
+<li>Only the <strong>powerLoan-light.js</strong> and <strong>powerLoan-light.min.js</strong> will be publicly available for now.
+These packages include SimpleLoan class and common and simple loan calculation functions.</li>
+</ul>
+<h2>Installation</h2>
+<p>Install <strong>PowerLoan-light</strong> using npm:</p>
+<pre class="prettyprint source lang-bash"><code>npm install powerloan-light
+</code></pre>
+<p>Or using yarn:</p>
+<pre class="prettyprint source lang-bash"><code>yarn add powerloan-light
+</code></pre>
+<h2>Documentation</h2>
+<p><strong>PowerLoan</strong> full documentation has been automatically generated (thanks to JSDoc library) and is available into the &quot;doc&quot; folder.</p>
+<h2>Contributing</h2>
+<p>We welcome contributions to <strong>PowerLoan</strong>! Please read our Contributing Guide for details on how to submit pull requests and suggestions.</p>
+<h2>Support</h2>
+<p>If you have any questions or issues about <strong>PowerLoan</strong>, please open an issue on our GitHub issue tracker.</p>
+<h2>Author</h2>
+<p><strong>PowerLoan</strong> was created by <strong>Emmanuel FRANCOIS</strong>, a full stack web and mobile developer specialised in developing PWAs (Progressive Web Apps), Web Apps and Mobile applications with web technologies like REACT, MUI, CHAKRA UI, IONIC..., as well as Backend applications (with PHP, MySQL...) and REST APIs with Node.js, Express.js, Sequelize, MySQL...</p>
+<p><strong>Emmanuel FRANCOIS</strong>'s website can be found here : <a href="https://emmanuelfrancois.fr">https://emmanuelfrancois.fr</a></p>
+<h2>Copyright</h2>
+<p>Copyright (c) 2024 Emmanuel FRANCOIS - Hauts-de-France - France. All rights reserved.</p>
+<h2>License</h2>
+<p>PowerLoan is MIT licensed.</p></article>
+    </section>
+
+
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Thu Feb 22 2024 22:39:26 GMT+0100 (heure normale d’Europe centrale) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

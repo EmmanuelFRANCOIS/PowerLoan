@@ -2,7 +2,7 @@
   "name": "powerloan",
   "version": "0.1.0",
   "description": "PowerLoan is a powerful loan calculation library providing SimpleLoan and AdvancedLoan classes, and common, simple, and advanced loan calculations.",
-  "main": "index.js",
+  "main": "index-light.js",
   "directories": {
     "doc": "doc",
     "lib": "lib",
@@ -11,10 +11,16 @@
   "scripts": {
     "test": "jest",
     "release": "standard-version",
-    "build": "npm run build:prod && npm run build:dev",
-    "build:dev": "webpack --config webpack.config.js --mode development",
-    "build:prod": "webpack --config webpack.config.js --mode production",
-    "doc": "jsdoc -c jsdoc.json"
+    "build": "npm run build:dev-light && npm run build:dev-light-min && npm run build:dev-full && npm run build:dev-full-min && npm run build:prod-light && npm run build:prod-light-min && npm run build:prod-full && npm run build:prod-full-min",
+    "build:dev-light": "webpack --env mode=dev --env type=light --env minify=false --env analyze=true",
+    "build:dev-light-min": "webpack --env mode=dev --env type=light --env minify=true --env analyze=true",
+    "build:dev-full": "webpack --env mode=dev --env type= --env minify=false --env analyze=true",
+    "build:dev-full-min": "webpack --env mode=dev --env type= --env minify=true --env analyze=true",
+    "build:prod-light": "webpack --env mode=prod --env type=light --env minify=false --env analyze=true",
+    "build:prod-light-min": "webpack --env mode=prod --env type=light --env minify=true --env analyze=true",
+    "build:prod-full": "webpack --env mode=prod --env type= --env minify=false --env analyze=true",
+    "build:prod-full-min": "webpack --env mode=prod --env type= --env minify=true --env analyze=true",
+    "doc": "jsdoc -c jsdoc-light.json && jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",

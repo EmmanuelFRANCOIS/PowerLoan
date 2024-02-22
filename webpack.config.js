@@ -3,30 +3,39 @@ const TerserPlugin = require("terser-webpack-plugin");
 const JavaScriptObfuscator = require("webpack-obfuscator");
 const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
 
-module.exports = (env, argv) => {
-  const isProduction = argv.mode === "production";
+module.exports = (env) => {
+  // Parsing custom arguments
+  const isProduction   = env.mode    === "prod";
+  const isLight        = env.type    === "light";
+  const shouldMinify   = env.minify  === "true";
+  const shouldAnalyze  = env.analyze === "true";
+  const outputPath     = `lib/powerloan${isProduction ? "-prod" : "-dev"}${isLight ? "-light" : ""}${shouldMinify ? "-min" : ""}/`;
+  const outputFileName = `powerloan${isProduction ? "-prod" : "-dev"}${isLight ? "-light" : ""}${shouldMinify ? ".min" : ""}`;
+  const entryFile      = `./src/index${isLight ? "-light" : ""}.js`;
 
   const commonConfig = {
+    mode: isProduction ? 'production' : 'development',
     entry: {
-      main: "./src/index.js",
+      main: entryFile,
     },
     output: {
-      path: path.resolve(__dirname, "lib"),
-      filename: isProduction ? "powerloan.min.js" : "powerloan.js",
+      path: path.resolve(__dirname, outputPath),
+      filename: outputFileName + ".js",
     },
     optimization: {
-      minimize: isProduction,
-      minimizer: isProduction
+      minimize: shouldMinify,
+      minimizer: shouldMinify
         ? [
             new TerserPlugin({
               terserOptions: {
                 compress: {
                   drop_console: true,
                   drop_debugger: true,
-                  pure_funcs: ["console.log"], // Remove console logs
+                  pure_funcs: ["console.log"],
                 },
                 mangle: true,
               },
+              extractComments: true, // Set to true to generate LICENSE.txt files (3rd party licenses)
             }),
             new JavaScriptObfuscator(
               {
@@ -43,14 +52,20 @@ module.exports = (env, argv) => {
                 deadCodeInjection: true,
                 deadCodeInjectionThreshold: 0.4,
               },
-              ["powerloan.min.js"]
+              [outputFileName + ".js"]
             ),
           ]
         : [],
     },
-    plugins: isProduction ? [] : [new BundleAnalyzerPlugin()],
-    // Set devtool based on the environment
-    // devtool: isProduction ? false : 'source-map', // Use 'source-map' for development for better debugging
+    plugins: [
+        // Conditionally add BundleAnalyzerPlugin based on shouldAnalyze
+      ...(shouldAnalyze ? [new BundleAnalyzerPlugin({
+        openAnalyzer: false,    // Opens the report in browser or not
+        analyzerMode: 'static', // Explicitly set the mode to 'static'
+        generateStatsFile: true, // Add this line
+        reportFilename: outputFileName + '.js.report.html',
+      })] : [])
+    ],
     devtool: 'source-map',
     module: {
       rules: [
