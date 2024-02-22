@@ -1,0 +1,38 @@
+{
+  "name": "PowerLoan",
+  "version": "0.1.0",
+  "description": "A powerful loan calculation library providing SimpleLoan and AdvancedLoan classes, and common, simple, and advanced loan calculations.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanuelFRANCOIS/PowerLoan.git"
+  },
+  "keywords": [
+    "loan",
+    "simple",
+    "advanced",
+    "calculation",
+    "capital",
+    "interest",
+    "rate",
+    "repayment",
+    "mortgage",
+    "student",
+    "enterprise",
+    "business"
+  ],
+  "author": "Emmanuel FRANCOIS - Hauts-de-France - France",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmanuelFRANCOIS/PowerLoan/issues"
+  },
+  "homepage": "https://github.com/EmmanuelFRANCOIS/PowerLoan#readme"
+}
