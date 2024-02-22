@@ -42,16 +42,16 @@ These packages include SimpleLoan class and common and simple loan calculation f
 
 ## Installation
 
-Install **PowerLoan** using npm:
+Install **PowerLoan-light** using npm:
 
 ```bash
-npm install powerloan
+npm install powerloan-light
 ```
 
 Or using yarn:
 
 ```bash
-yarn add powerloan
+yarn add powerloan-light
 ```
 
 ## Documentation

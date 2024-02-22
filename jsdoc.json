@@ -1,0 +1,54 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "source": {
+    "include": ["src"],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "opts": {
+    "destination": "doc/",
+    "recurse": true,
+    "template": "node_modules/docdash",
+    "readme": "./README.md"
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "docdash": {
+    "static": true,
+    "sort": true,
+    "search": true,
+    "collapse": true,
+    "typedefs": true,
+    "removeQuotes": "none",
+    "scripts": [],
+    "menu":{
+      "Github repo": {
+        "href":"https://github.com/EmmanuelFRANCOIS/powerLoan/",
+        "target":"_blank",
+        "class":"menu-item",
+        "id":"repository"
+      }
+    }
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": false,
+    "outputSourceFiles": true,
+    "outputSourcePath": true,
+    "logoFile": "",
+    "systemName": "PowerLoan Documentation",
+    "footer": "Copyright © 2024 Emmanuel FRANCOIS - Hauts-de-France - France.",
+    "copyright": "Copyright © 2024 Emmanuel FRANCOIS - Hauts-de-France - France.",
+    "collapseSymbols": false,
+    "inverseNav": true,
+    "protocol": "html://",
+    "methodHeadingReturns": true,
+    "linenums": true,
+    "dateFormat": "MMMM Do YYYY, h:mm:ss a"
+  }
+}
+
