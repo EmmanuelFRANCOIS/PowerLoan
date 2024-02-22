@@ -1,5 +1,5 @@
 {
-  "name": "PowerLoan",
+  "name": "powerloan",
   "version": "0.1.0",
   "description": "A powerful loan calculation library providing SimpleLoan and AdvancedLoan classes, and common, simple, and advanced loan calculations.",
   "main": "index.js",
