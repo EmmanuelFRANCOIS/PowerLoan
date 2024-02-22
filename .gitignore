@@ -4,11 +4,11 @@
 /node_modules
 /src/advanced
 /test/advanced
-/lib/powerLoan-dev/
-/lib/powerLoan-dev-min/
-/lib/powerLoan-prod/
-/lib/powerLoan-prod-min/
-/doc/powerLoan/
+/lib/powerLoan-dev
+/lib/powerLoan-dev-min
+/lib/powerLoan-prod
+/lib/powerLoan-prod-min
+/doc/powerLoan
 /.pnp
 .pnp.js
 
