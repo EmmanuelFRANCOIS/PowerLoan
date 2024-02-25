@@ -4,7 +4,7 @@
     "dictionaries": ["jsdoc", "closure"]
   },
   "source": {
-    "include": ["src/simpleLoan", "src/advancedLoan", "src/common", "src/simple", "src/advanced"],
+    "include": ["src/simpleLoan", "src/advancedLoan", "src/common", "src/simple", "src/advanced", "src/helpers"],
     "includePattern": ".+\\.js(doc|x)?$",
     "excludePattern": "(^|\\/|\\\\)_"
   },
@@ -12,7 +12,8 @@
     "destination": "doc/powerloan",
     "recurse": true,
     "template": "node_modules/docdash",
-    "readme": "./README.md"
+    "readme": "./README.md",
+    "includePrivate": true
   },
   "plugins": [
     "plugins/markdown"

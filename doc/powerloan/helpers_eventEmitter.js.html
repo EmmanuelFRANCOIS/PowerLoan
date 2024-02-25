@@ -3,7 +3,7 @@
 <head>
     
     <meta charset="utf-8">
-    <title>AdvancedLoan - Documentation</title>
+    <title>helpers/eventEmitter.js - Documentation</title>
     
     
     <script src="scripts/prettify/prettify.js"></script>
@@ -37,266 +37,72 @@
 
 <div id="main">
     
-    <h1 class="page-title">AdvancedLoan</h1>
+    <h1 class="page-title">helpers/eventEmitter.js</h1>
     
 
     
 
 
 
-
-<section>
-
-<header>
     
-        <h2>
-        
-            AdvancedLoan
-        
-        </h2>
-        
-            <div class="class-description usertext"><p>Represents an advanced loan with properties and methods to manipulate and calculate loan data.</p></div>
-        
-    
-</header>
-
-<article>
-    
-        <div class="container-overview">
-        
-            
-
-    
-    <h2>Constructor</h2>
-    
-
-    <h4 class="name" id="AdvancedLoan"><span class="type-signature"></span>new AdvancedLoan<span class="signature">(loanData)</span><span class="type-signature"></span></h4>
-
-    
-
-
-
-
-<dl class="details">
-    
-    <dt class="tag-description">Description:</dt>
-    <dd class="tag-description"><ul class="dummy"><li><p>Constructs a AdvancedLoan loanInstance with provided data or default values.</p></li></ul></dd>
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="advancedLoan_advancedLoan.js.html">advancedLoan/advancedLoan.js</a>, <a href="advancedLoan_advancedLoan.js.html#line4">line 4</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <h5 class="h5-parameters">Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>loanData</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Object</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Data to initialize the loan properties.</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        </div>
-    
-
-    
-
-    
-
-    
-    
-    
-
-     
-
-    
-
-    
-        <h3 class="subsection-title">Members</h3>
-
-        
-            
-<h4 class="name" id="defaultAdvancedLoan"><span class="type-signature"></span>defaultAdvancedLoan<span class="type-signature"></span></h4>
-
-
-
-
-
-<dl class="details">
-    
-    <dt class="tag-description">Description:</dt>
-    <dd class="tag-description"><ul class="dummy"><li><p>Default properties for an advanced loan.</p></li></ul></dd>
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="advancedLoan_advancedLoan.js.html">advancedLoan/advancedLoan.js</a>, <a href="advancedLoan_advancedLoan.js.html#line9">line 9</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-<div class="description usertext">
-    <p>Default properties for an advanced loan.</p>
-</div>
-
-
-
-
-
-
-
-
-        
-    
-
-    
-
-    
-
-    
-</article>
-
-</section>
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>// EventEmitter.js
+/**
+ * A simple event emitter class that allows objects to subscribe to,
+ * emit, and unsubscribe from events.
+ * @private
+ */
+class EventEmitter {
+  /**
+   * Constructs the EventEmitter instance.
+   */
+  constructor() {
+    this.listeners = {};
+  }
+
+  /**
+   * Registers an event listener for the specified event.
+   * @param {string} event - The name of the event to listen for.
+   * @param {Function} listener - The callback function to register.
+   */
+  on(event, listener) {
+    if (!this.listeners[event]) {
+      this.listeners[event] = [];
+    }
+    this.listeners[event].push(listener);
+  }
+
+  /**
+   * Removes an event listener for the specified event.
+   * @param {string} event - The name of the event to remove the listener for.
+   * @param {Function} listener - The callback function to remove.
+   */
+  off(event, listener) {
+    if (!this.listeners[event]) return;
+    const index = this.listeners[event].indexOf(listener);
+    if (index > -1) {
+      this.listeners[event].splice(index, 1);
+    }
+  }
+
+  /**
+   * Emits an event, calling all registered listeners for this event.
+   * @param {string} event - The name of the event to emit.
+   * @param {...any} args - Arguments to pass to the event listeners.
+   */
+  emit(event, ...args) {
+    if (!this.listeners[event]) return;
+    this.listeners[event].forEach((listener) => {
+      listener(...args);
+    });
+  }
+}
+
+export default EventEmitter;
+</code></pre>
+        </article>
+    </section>
 
 
 

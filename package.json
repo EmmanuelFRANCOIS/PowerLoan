@@ -60,5 +60,10 @@
     "webpack-cli": "^5.1.4",
     "webpack-merge": "^5.10.0",
     "webpack-obfuscator": "^3.5.1"
+  },
+  "dependencies": {
+    "big": "^0.5.2",
+    "dayjs": "^1.11.10",
+    "uuid": "^9.0.1"
   }
 }
