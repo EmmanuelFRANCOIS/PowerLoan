@@ -50,9 +50,9 @@ class SimpleLoan extends EventEmitter {
     active: false,
     calculationMode: "repayment",
     capital: 100000,
-    releaseDate: dayjs().add(1, 'month').format('YYYY-MM-01T08:00:00Z'), // 1st of next month
-    beginDate: dayjs().add(2, 'month').format('YYYY-MM-01T08:00:00Z'), // 1st of 1 month after next month
-    endDate: dayjs().add(121, 'month').format('YYYY-MM-01T08:00:00Z'), // beginDate + 120 months
+    releaseDate: dayjs().add(1, 'month').format('yyyy-MM-01T08:00:00Z'), // 1st of next month
+    beginDate: dayjs().add(2, 'month').format('yyyy-MM-01T08:00:00Z'), // 1st of 1 month after next month
+    endDate: dayjs().add(121, 'month').format('yyyy-MM-01T08:00:00Z'), // beginDate + 120 months
     durationPeriods: 120,
     durationTime: 120,
     interestRate: 0.035,
@@ -64,8 +64,8 @@ class SimpleLoan extends EventEmitter {
     lenderContactEmail: "",
     lenderContractRef: "",
     lenderContractDate: null,
-    createdAt: dayjs().format('YYYY-MM-DDTHH:mm:ssZ'),
-    modifiedAt: dayjs().format('YYYY-MM-DDTHH:mm:ssZ')
+    createdAt: dayjs().format('yyyy-MM-ddTHH:mm:ss.SSSZZ'),
+    modifiedAt: dayjs().format('yyyy-MM-ddTHH:mm:ss.SSSZ')
   };
 
   /**
@@ -537,31 +537,42 @@ class SimpleLoan extends EventEmitter {
    */
 
   /**
-   * Calculate loan according to [calculationMode] and update the target loan's property of calculation.
+   * Calculate loan according to a [calculationMode] and update the target loan's property of calculation.
+   * @param {Object} mode - Argument tTo override the [calculationMode] property if required.
+   * @fires SimpleLoan#calculated - Fires the [calculated] event.
    * @method
    */
-  calculateLoan() {
-    switch(this._calculationMode) {
+  calculateLoan(mode = '') {
+    let calcMode = null;
+    if (this._validateProperty('calculationMode', mode)) {
+      calcMode = mode;
+    } else {
+      calcMode = this._calculationMode;
+      console.warn('[calculateLoan] method', `Invalid [mode] ("${mode}") argument => fallback to [calculationMode] ("${this._calculationMode}")`);
+    }
+    let resultCalc = {};
+    switch(calcMode) {
       case "capital":
         this._capital = calcCapital();
+        resultCalc = { timestamp: dayjs().format("yyyy-MM-ddTHH:mm:ss.SSSZ"), mode: calcMode, result: this._capital };
         break;
       case "duration":
         this._durationPeriods = calcDurationPeriods();
         this._durationTime = this._durationPeriods;
+        resultCalc = { timestamp: dayjs().format("yyyy-MM-ddTHH:mm:ss.SSSZ"), mode: calcMode, result: this._capital };
         break;
       case "interest":
         this._interestRate = calcInterestRate();
+        resultCalc = { timestamp: dayjs().format("yyyy-MM-ddTHH:mm:ss.SSSZ"), mode: calcMode, result: this._capital };
         break;
       case "repayment":
       default:
         this._repayment = calcRepayment();
+        resultCalc = { timestamp: dayjs().format("yyyy-MM-ddTHH:mm:ss.SSSZ"), mode: calcMode, result: this._capital };
         break;
     }
     // Emit a [calculated] event
-    this.emit('calculated', {
-      timestamp: dayjs().format("yyyy-MM-ddTHH:mm:ss.SSSZ"),
-      calculationMode: this._calculationMode
-    });
+    this.emit('calculated', resultCalc);
   }
 
   /**
@@ -592,6 +603,7 @@ class SimpleLoan extends EventEmitter {
    * Validates and sets the property values of the loan.
    * If validation fails for any property, it aggregates errors.
    * @param {Object} loanData - The loan data to initialize or update the loan with.
+   * @fires SimpleLoan#propertiesChanged - Fires the [propertiesChanged] event if properties values changed.
    * @method
    */
   setLoanData(loanData = {}) {
@@ -782,7 +794,8 @@ class SimpleLoan extends EventEmitter {
    * @event SimpleLoan#calculated
    * @type {object}
    * @property {string} timestamp - The date and time the calculation has been made.
-   * @property {*} calculationMode - The calculation mode that has been applied.
+   * @property {string} mode - The calculation mode that has been applied.
+   * @property {number} result - The calculated result.
    */
 
 
@@ -798,7 +811,7 @@ class SimpleLoan extends EventEmitter {
    * @private
    */
   _adjustReleaseDate() {
-    this._releaseDate = dayjs(this._beginDate).subtract(1, "months").format('YYYY-MM-01T08:00:00Z');
+    this._releaseDate = dayjs(this._beginDate).subtract(1, "months").format('yyyy-MM-01T08:00:00Z');
   }
 
   /**
@@ -807,7 +820,7 @@ class SimpleLoan extends EventEmitter {
    * @private
    */
   _adjustBeginDate() {
-    this._beginDate = dayjs(this._releaseDate).add(1, "months").format('YYYY-MM-01T08:00:00Z');
+    this._beginDate = dayjs(this._releaseDate).add(1, "months").format('yyyy-MM-01T08:00:00Z');
     this._adjustEndDate();
   }
 
@@ -817,7 +830,7 @@ class SimpleLoan extends EventEmitter {
    * @private
    */
   _adjustEndDate() {
-    this._endDate = dayjs(this._beginDate).add(this._durationPeriods, "months").format('YYYY-MM-01T08:00:00Z');
+    this._endDate = dayjs(this._beginDate).add(this._durationPeriods, "months").format('yyyy-MM-01T08:00:00Z');
   }
 
   /**

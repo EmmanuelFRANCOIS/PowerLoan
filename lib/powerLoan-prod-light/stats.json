@@ -1,8 +1,8 @@
 {
-  "hash": "25e640c12a618b548f62",
+  "hash": "6b7c514579c3f047d9ad",
   "version": "5.90.3",
-  "time": 1150,
-  "builtAt": 1708936381652,
+  "time": 1237,
+  "builtAt": 1708943419793,
   "publicPath": "auto",
   "outputPath": "/mnt/HPZB_DEV/Github/powerLoan/lib/powerLoan-prod-light",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "powerLoan-prod-light.js",
-      "size": 69884,
+      "size": 71277,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -23,7 +23,7 @@
         "related": {
           "sourceMap": "powerLoan-prod-light.js.map"
         },
-        "size": 69884
+        "size": 71277
       },
       "chunkNames": [
         "main"
@@ -36,13 +36,13 @@
         {
           "type": "sourceMap",
           "name": "powerLoan-prod-light.js.map",
-          "size": 88795,
+          "size": 90783,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 88795
+            "size": 90783
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -71,9 +71,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 65266,
+      "size": 66617,
       "sizes": {
-        "javascript": 64603,
+        "javascript": 65954,
         "runtime": 663
       },
       "names": [
@@ -89,7 +89,7 @@
       "auxiliaryFiles": [
         "powerLoan-prod-light.js.map"
       ],
-      "hash": "253852bbf6451c8d1900",
+      "hash": "76a771bbaa949506e798",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -172,7 +172,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "599:19-24",
+              "loc": "596:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -186,7 +186,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "665:23-28",
+              "loc": "605:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -200,7 +200,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "873:26-31",
+              "loc": "613:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -214,7 +214,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "884:24-29",
+              "loc": "622:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -228,7 +228,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "896:22-27",
+              "loc": "694:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -242,7 +242,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "907:30-35",
+              "loc": "903:26-31",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -256,7 +256,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "932:23-28",
+              "loc": "914:24-29",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -270,7 +270,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:52-57",
+              "loc": "926:22-27",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -284,7 +284,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:86-91",
+              "loc": "937:30-35",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -298,7 +298,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:116-121",
+              "loc": "962:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -312,7 +312,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:140-145",
+              "loc": "1037:52-57",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -326,7 +326,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:169-174",
+              "loc": "1037:86-91",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -340,7 +340,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1011:14-19",
+              "loc": "1037:116-121",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -354,7 +354,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1011:43-48",
+              "loc": "1037:140-145",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -368,7 +368,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:52-57",
+              "loc": "1037:169-174",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -382,7 +382,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:86-91",
+              "loc": "1041:14-19",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -396,7 +396,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:116-121",
+              "loc": "1041:43-48",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -410,7 +410,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:156-161",
+              "loc": "1047:52-57",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -424,7 +424,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:185-190",
+              "loc": "1047:86-91",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -438,7 +438,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1021:14-19",
+              "loc": "1047:116-121",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -452,7 +452,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1021:44-49",
+              "loc": "1047:156-161",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -466,7 +466,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1021:72-77",
+              "loc": "1047:185-190",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -480,7 +480,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1021:101-106",
+              "loc": "1051:14-19",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -494,7 +494,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1023:118-123",
+              "loc": "1051:44-49",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -508,7 +508,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1023:178-183",
+              "loc": "1051:72-77",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -522,7 +522,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:52-57",
+              "loc": "1051:101-106",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -536,7 +536,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:86-91",
+              "loc": "1053:118-123",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -550,7 +550,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:116-121",
+              "loc": "1053:178-183",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -564,7 +564,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:140-145",
+              "loc": "1057:52-57",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -578,7 +578,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:169-174",
+              "loc": "1057:86-91",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -592,7 +592,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1031:14-19",
+              "loc": "1057:116-121",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -606,7 +606,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1031:44-49",
+              "loc": "1057:140-145",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -620,7 +620,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1033:145-150",
+              "loc": "1057:169-174",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -634,7 +634,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1070:52-57",
+              "loc": "1061:14-19",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -648,7 +648,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1102:15-20",
+              "loc": "1061:44-49",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -662,7 +662,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1104:13-18",
+              "loc": "1063:145-150",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -676,7 +676,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1106:11-16",
+              "loc": "1100:52-57",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -690,7 +690,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1119:13-18",
+              "loc": "1132:15-20",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -704,7 +704,49 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1120:14-19",
+              "loc": "1134:13-18",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1136:11-16",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1149:13-18",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1150:14-19",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -732,7 +774,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "599:19-24",
+              "loc": "596:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -746,7 +788,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "665:23-28",
+              "loc": "605:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -760,7 +802,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "873:26-31",
+              "loc": "613:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -774,7 +816,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "884:24-29",
+              "loc": "622:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -788,7 +830,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "896:22-27",
+              "loc": "694:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -802,7 +844,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "907:30-35",
+              "loc": "903:26-31",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -816,7 +858,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "932:23-28",
+              "loc": "914:24-29",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -830,7 +872,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:52-57",
+              "loc": "926:22-27",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -844,7 +886,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:86-91",
+              "loc": "937:30-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -858,7 +900,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:116-121",
+              "loc": "962:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -872,7 +914,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:140-145",
+              "loc": "1037:52-57",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -886,7 +928,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1007:169-174",
+              "loc": "1037:86-91",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -900,7 +942,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1011:14-19",
+              "loc": "1037:116-121",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -914,7 +956,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1011:43-48",
+              "loc": "1037:140-145",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -928,7 +970,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:52-57",
+              "loc": "1037:169-174",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -942,7 +984,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:86-91",
+              "loc": "1041:14-19",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -956,7 +998,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:116-121",
+              "loc": "1041:43-48",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -970,7 +1012,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:156-161",
+              "loc": "1047:52-57",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -984,7 +1026,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1017:185-190",
+              "loc": "1047:86-91",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -998,7 +1040,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1021:14-19",
+              "loc": "1047:116-121",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1012,7 +1054,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1021:44-49",
+              "loc": "1047:156-161",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1026,7 +1068,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1021:72-77",
+              "loc": "1047:185-190",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1040,7 +1082,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1021:101-106",
+              "loc": "1051:14-19",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1054,7 +1096,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1023:118-123",
+              "loc": "1051:44-49",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1068,7 +1110,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1023:178-183",
+              "loc": "1051:72-77",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1082,7 +1124,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:52-57",
+              "loc": "1051:101-106",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1096,7 +1138,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:86-91",
+              "loc": "1053:118-123",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1110,7 +1152,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:116-121",
+              "loc": "1053:178-183",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1124,7 +1166,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:140-145",
+              "loc": "1057:52-57",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1138,7 +1180,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1027:169-174",
+              "loc": "1057:86-91",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1152,7 +1194,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1031:14-19",
+              "loc": "1057:116-121",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1166,7 +1208,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1031:44-49",
+              "loc": "1057:140-145",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1180,7 +1222,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1033:145-150",
+              "loc": "1057:169-174",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1194,7 +1236,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1070:52-57",
+              "loc": "1061:14-19",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1208,7 +1250,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1102:15-20",
+              "loc": "1061:44-49",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1222,7 +1264,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1104:13-18",
+              "loc": "1063:145-150",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1236,7 +1278,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1106:11-16",
+              "loc": "1100:52-57",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1250,7 +1292,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1119:13-18",
+              "loc": "1132:15-20",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1264,7 +1306,49 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1120:14-19",
+              "loc": "1134:13-18",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1136:11-16",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1149:13-18",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1150:14-19",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1311,9 +1395,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 57443,
+          "size": 58794,
           "sizes": {
-            "javascript": 57443
+            "javascript": 58794
           },
           "built": true,
           "codeGenerated": true,
@@ -1625,9 +1709,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 39776,
+              "size": 41127,
               "sizes": {
-                "javascript": 39776
+                "javascript": 41127
               },
               "built": true,
               "codeGenerated": false,
@@ -1700,7 +1784,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (ExpressionStatement) with side effects in source code at 1091:0-1121:3"
+                "Statement (ExpressionStatement) with side effects in source code at 1121:0-1151:3"
               ],
               "depth": 2
             },
@@ -2939,7 +3023,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "959:15-35",
+                  "loc": "989:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2953,7 +3037,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "965:15-32",
+                  "loc": "995:15-32",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2967,7 +3051,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "971:15-34",
+                  "loc": "1001:15-34",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2981,7 +3065,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "988:15-35",
+                  "loc": "1018:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2995,7 +3079,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1001:15-35",
+                  "loc": "1031:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3009,7 +3093,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1007:15-32",
+                  "loc": "1037:15-32",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3023,7 +3107,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1017:15-32",
+                  "loc": "1047:15-32",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3037,7 +3121,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1027:15-32",
+                  "loc": "1057:15-32",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3051,7 +3135,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1037:15-35",
+                  "loc": "1067:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3065,7 +3149,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1043:15-35",
+                  "loc": "1073:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3079,7 +3163,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1049:15-34",
+                  "loc": "1079:15-34",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3093,7 +3177,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1055:15-34",
+                  "loc": "1085:15-34",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3107,7 +3191,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1070:15-32",
+                  "loc": "1100:15-32",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -3197,7 +3281,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/eventEmitter.js",
-                  "loc": "1087:2-14",
+                  "loc": "1117:2-14",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -3276,7 +3360,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "uuid",
-                  "loc": "1094:8-14",
+                  "loc": "1124:8-14",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4989,9 +5073,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 57443,
+      "size": 58794,
       "sizes": {
-        "javascript": 57443
+        "javascript": 58794
       },
       "built": true,
       "codeGenerated": true,
@@ -5299,9 +5383,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 39776,
+          "size": 41127,
           "sizes": {
-            "javascript": 39776
+            "javascript": 41127
           },
           "built": true,
           "codeGenerated": false,
@@ -5373,7 +5457,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 1091:0-1121:3"
+            "Statement (ExpressionStatement) with side effects in source code at 1121:0-1151:3"
           ],
           "depth": 2
         },
@@ -6599,7 +6683,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "959:15-35",
+              "loc": "989:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6613,7 +6697,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "965:15-32",
+              "loc": "995:15-32",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6627,7 +6711,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "971:15-34",
+              "loc": "1001:15-34",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6641,7 +6725,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "988:15-35",
+              "loc": "1018:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6655,7 +6739,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1001:15-35",
+              "loc": "1031:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6669,7 +6753,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1007:15-32",
+              "loc": "1037:15-32",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6683,7 +6767,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1017:15-32",
+              "loc": "1047:15-32",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6697,7 +6781,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1027:15-32",
+              "loc": "1057:15-32",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6711,7 +6795,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1037:15-35",
+              "loc": "1067:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6725,7 +6809,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1043:15-35",
+              "loc": "1073:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6739,7 +6823,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1049:15-34",
+              "loc": "1079:15-34",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6753,7 +6837,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1055:15-34",
+              "loc": "1085:15-34",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6767,7 +6851,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1070:15-32",
+              "loc": "1100:15-32",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -6856,7 +6940,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/eventEmitter.js",
-              "loc": "1087:2-14",
+              "loc": "1117:2-14",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -6934,7 +7018,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "uuid",
-              "loc": "1094:8-14",
+              "loc": "1124:8-14",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -8721,9 +8805,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 39776,
+      "size": 41127,
       "sizes": {
-        "javascript": 39776
+        "javascript": 41127
       },
       "built": true,
       "codeGenerated": false,
@@ -8795,7 +8879,7 @@
         "default"
       ],
       "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 1091:0-1121:3"
+        "Statement (ExpressionStatement) with side effects in source code at 1121:0-1151:3"
       ],
       "depth": 2
     },
@@ -10023,7 +10107,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "599:19-24",
+          "loc": "596:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10037,7 +10121,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "665:23-28",
+          "loc": "605:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10051,7 +10135,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "873:26-31",
+          "loc": "613:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10065,7 +10149,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "884:24-29",
+          "loc": "622:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10079,7 +10163,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "896:22-27",
+          "loc": "694:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10093,7 +10177,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "907:30-35",
+          "loc": "903:26-31",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10107,7 +10191,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "932:23-28",
+          "loc": "914:24-29",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10121,7 +10205,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:52-57",
+          "loc": "926:22-27",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10135,7 +10219,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:86-91",
+          "loc": "937:30-35",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10149,7 +10233,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:116-121",
+          "loc": "962:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10163,7 +10247,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:140-145",
+          "loc": "1037:52-57",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10177,7 +10261,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:169-174",
+          "loc": "1037:86-91",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10191,7 +10275,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1011:14-19",
+          "loc": "1037:116-121",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10205,7 +10289,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1011:43-48",
+          "loc": "1037:140-145",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10219,7 +10303,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:52-57",
+          "loc": "1037:169-174",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10233,7 +10317,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:86-91",
+          "loc": "1041:14-19",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10247,7 +10331,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:116-121",
+          "loc": "1041:43-48",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10261,7 +10345,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:156-161",
+          "loc": "1047:52-57",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10275,7 +10359,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:185-190",
+          "loc": "1047:86-91",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10289,7 +10373,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1021:14-19",
+          "loc": "1047:116-121",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10303,7 +10387,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1021:44-49",
+          "loc": "1047:156-161",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10317,7 +10401,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1021:72-77",
+          "loc": "1047:185-190",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10331,7 +10415,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1021:101-106",
+          "loc": "1051:14-19",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10345,7 +10429,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1023:118-123",
+          "loc": "1051:44-49",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10359,7 +10443,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1023:178-183",
+          "loc": "1051:72-77",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10373,7 +10457,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:52-57",
+          "loc": "1051:101-106",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10387,7 +10471,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:86-91",
+          "loc": "1053:118-123",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10401,7 +10485,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:116-121",
+          "loc": "1053:178-183",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10415,7 +10499,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:140-145",
+          "loc": "1057:52-57",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10429,7 +10513,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:169-174",
+          "loc": "1057:86-91",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10443,7 +10527,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1031:14-19",
+          "loc": "1057:116-121",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10457,7 +10541,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1031:44-49",
+          "loc": "1057:140-145",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10471,7 +10555,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1033:145-150",
+          "loc": "1057:169-174",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10485,7 +10569,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1070:52-57",
+          "loc": "1061:14-19",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10499,7 +10583,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1102:15-20",
+          "loc": "1061:44-49",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10513,7 +10597,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1104:13-18",
+          "loc": "1063:145-150",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10527,7 +10611,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1106:11-16",
+          "loc": "1100:52-57",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10541,7 +10625,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1119:13-18",
+          "loc": "1132:15-20",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10555,7 +10639,49 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1120:14-19",
+          "loc": "1134:13-18",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1136:11-16",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1149:13-18",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1150:14-19",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10583,7 +10709,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "599:19-24",
+          "loc": "596:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10597,7 +10723,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "665:23-28",
+          "loc": "605:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10611,7 +10737,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "873:26-31",
+          "loc": "613:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10625,7 +10751,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "884:24-29",
+          "loc": "622:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10639,7 +10765,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "896:22-27",
+          "loc": "694:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10653,7 +10779,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "907:30-35",
+          "loc": "903:26-31",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10667,7 +10793,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "932:23-28",
+          "loc": "914:24-29",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10681,7 +10807,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:52-57",
+          "loc": "926:22-27",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10695,7 +10821,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:86-91",
+          "loc": "937:30-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10709,7 +10835,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:116-121",
+          "loc": "962:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10723,7 +10849,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:140-145",
+          "loc": "1037:52-57",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10737,7 +10863,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1007:169-174",
+          "loc": "1037:86-91",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10751,7 +10877,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1011:14-19",
+          "loc": "1037:116-121",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10765,7 +10891,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1011:43-48",
+          "loc": "1037:140-145",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10779,7 +10905,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:52-57",
+          "loc": "1037:169-174",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10793,7 +10919,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:86-91",
+          "loc": "1041:14-19",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10807,7 +10933,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:116-121",
+          "loc": "1041:43-48",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10821,7 +10947,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:156-161",
+          "loc": "1047:52-57",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10835,7 +10961,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1017:185-190",
+          "loc": "1047:86-91",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10849,7 +10975,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1021:14-19",
+          "loc": "1047:116-121",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10863,7 +10989,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1021:44-49",
+          "loc": "1047:156-161",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10877,7 +11003,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1021:72-77",
+          "loc": "1047:185-190",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10891,7 +11017,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1021:101-106",
+          "loc": "1051:14-19",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10905,7 +11031,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1023:118-123",
+          "loc": "1051:44-49",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10919,7 +11045,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1023:178-183",
+          "loc": "1051:72-77",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10933,7 +11059,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:52-57",
+          "loc": "1051:101-106",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10947,7 +11073,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:86-91",
+          "loc": "1053:118-123",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10961,7 +11087,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:116-121",
+          "loc": "1053:178-183",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10975,7 +11101,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:140-145",
+          "loc": "1057:52-57",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10989,7 +11115,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1027:169-174",
+          "loc": "1057:86-91",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11003,7 +11129,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1031:14-19",
+          "loc": "1057:116-121",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11017,7 +11143,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1031:44-49",
+          "loc": "1057:140-145",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11031,7 +11157,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1033:145-150",
+          "loc": "1057:169-174",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11045,7 +11171,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1070:52-57",
+          "loc": "1061:14-19",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11059,7 +11185,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1102:15-20",
+          "loc": "1061:44-49",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11073,7 +11199,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1104:13-18",
+          "loc": "1063:145-150",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11087,7 +11213,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1106:11-16",
+          "loc": "1100:52-57",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11101,7 +11227,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1119:13-18",
+          "loc": "1132:15-20",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11115,7 +11241,49 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1120:14-19",
+          "loc": "1134:13-18",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1136:11-16",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1149:13-18",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1150:14-19",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11231,7 +11399,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "959:15-35",
+          "loc": "989:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11245,7 +11413,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "965:15-32",
+          "loc": "995:15-32",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11259,7 +11427,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "971:15-34",
+          "loc": "1001:15-34",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11273,7 +11441,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "988:15-35",
+          "loc": "1018:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11287,7 +11455,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1001:15-35",
+          "loc": "1031:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11301,7 +11469,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1007:15-32",
+          "loc": "1037:15-32",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11315,7 +11483,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1017:15-32",
+          "loc": "1047:15-32",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11329,7 +11497,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1027:15-32",
+          "loc": "1057:15-32",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11343,7 +11511,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1037:15-35",
+          "loc": "1067:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11357,7 +11525,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1043:15-35",
+          "loc": "1073:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11371,7 +11539,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1049:15-34",
+          "loc": "1079:15-34",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11385,7 +11553,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1055:15-34",
+          "loc": "1085:15-34",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11399,7 +11567,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1070:15-32",
+          "loc": "1100:15-32",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -11488,7 +11656,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/eventEmitter.js",
-          "loc": "1087:2-14",
+          "loc": "1117:2-14",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -11566,7 +11734,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "uuid",
-          "loc": "1094:8-14",
+          "loc": "1124:8-14",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -12792,7 +12960,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "uuid",
-          "loc": "1094:8-14",
+          "loc": "1124:8-14",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -12820,7 +12988,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "uuid",
-          "loc": "1094:8-14",
+          "loc": "1124:8-14",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -14360,8 +14528,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/uuid/dist/esm-browser/v5.js",
-      "issuerName": "./node_modules/uuid/dist/esm-browser/v5.js",
+      "issuer": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/uuid/dist/esm-browser/v3.js",
+      "issuerName": "./node_modules/uuid/dist/esm-browser/v3.js",
       "issuerPath": [
         {
           "identifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js",
@@ -14384,8 +14552,8 @@
           "id": null
         },
         {
-          "identifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/uuid/dist/esm-browser/v5.js",
-          "name": "./node_modules/uuid/dist/esm-browser/v5.js",
+          "identifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/uuid/dist/esm-browser/v3.js",
+          "name": "./node_modules/uuid/dist/esm-browser/v3.js",
           "id": null
         }
       ],
@@ -14580,19 +14748,19 @@
       "assets": [
         {
           "name": "powerLoan-prod-light.js",
-          "size": 69884
+          "size": 71277
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 69884,
+      "assetsSize": 71277,
       "auxiliaryAssets": [
         {
           "name": "powerLoan-prod-light.js.map",
-          "size": 88795
+          "size": 90783
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 88795,
+      "auxiliaryAssetsSize": 90783,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -14607,19 +14775,19 @@
       "assets": [
         {
           "name": "powerLoan-prod-light.js",
-          "size": 69884
+          "size": 71277
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 69884,
+      "assetsSize": 71277,
       "auxiliaryAssets": [
         {
           "name": "powerLoan-prod-light.js.map",
-          "size": 88795
+          "size": 90783
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 88795,
+      "auxiliaryAssetsSize": 90783,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
