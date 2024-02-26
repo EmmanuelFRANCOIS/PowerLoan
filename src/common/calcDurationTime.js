@@ -9,11 +9,11 @@ import validation from '../helpers/validation.js';
  * @returns {number} The duration of the loan in months.
  * @throws Will throw an error if the beginDate or endDate are not valid ISO 8601 dates,
  * or if the endDate is before or equal to the beginDate,
- * or if the duration in months is not a multiple of the repaymentPeriodicity.
+ * or if the durationTime in months is not a multiple of the repaymentPeriodicity.
  * @example
- * // If beginDate = '2024-01-01T12:00:00Z' and endDate = '2033-12-01T12:00:00Z',
+ * // If beginDate = '2024-01-01T08:00:00+01:00' and endDate = '2033-12-01T08:00:00+01:00',
  * // it should return 120.
- * calcDurationTime('2024-01-01T12:00:00Z', '2033-12-01T12:00:00Z', 1);
+ * calcDurationTime('2024-01-01T08:00:00+01:00', '2033-12-01T08:00:00+01:00', 2);
  */
 function calcDurationTime(beginDate, endDate, repaymentPeriodicity = 1) {
   // Validate inputs
@@ -27,16 +27,21 @@ function calcDurationTime(beginDate, endDate, repaymentPeriodicity = 1) {
     throw new Error('Invalid repaymentPeriodicity: Must be a positive integer.');
   }
 
-  // Calculate duration in months
+  // Adjust begin and end dates to 1rst of month
   const begin = dayjs(beginDate).startOf('month');
   const end = dayjs(endDate).startOf('month');
+
+  // Check that end date is after begin date
   if (end.isBefore(begin)) {
     throw new Error('endDate must be after beginDate.');
   }
 
+  // Calculate duration in months
   const durationTime = end.diff(begin, 'month') + 1;
+
+  // Check that durationTime is a multiple of repaymentPeriodicity
   if (durationTime % repaymentPeriodicity !== 0) {
-    throw new Error('The duration in months must be a multiple of the repaymentPeriodicity.');
+    throw new Error('The durationTime in months must be a multiple of the repaymentPeriodicity.');
   }
 
   return durationTime;

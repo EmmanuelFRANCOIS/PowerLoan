@@ -23,11 +23,11 @@ class AdvancedLoan {
     beginDate: moment()
       .add(1, "months")
       .startOf("month")
-      .format("YYYY-MM-DDT12:00:00Z"),
+      .format("YYYY-MM-DDT08:00:00+01:00"),
     endDate: moment()
       .add(121, "months")
       .startOf("month")
-      .format("YYYY-MM-DDT12:00:00Z"),
+      .format("YYYY-MM-DDT08:00:00+01:00"),
     durationPeriods: 120,
     durationTime: 120,
     interestType: "simple",

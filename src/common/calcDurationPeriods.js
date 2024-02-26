@@ -9,13 +9,13 @@ import validation from '../helpers/validation.js';
  * @param {number} repaymentPeriodicity - The periodicity of repayments in months. Defaults to 1 (monthly).
  * @returns {number} The duration of the loan in periods.
  * @example
- * // If beginDate = '2024-01-01T12:00:00Z', endDate = '2033-12-01T12:00:00Z', and repaymentPeriodicity = 1,
+ * // If beginDate = '2024-01-01T08:00:00+01:00', endDate = '2033-12-01T08:00:00+01:00', and repaymentPeriodicity = 1,
  * // it should return 120.
- * calcDurationPeriods('2024-01-01T12:00:00Z', '2033-12-01T12:00:00Z', 1);
+ * calcDurationPeriods('2024-01-01T08:00:00+01:00', '2033-12-01T08:00:00+01:00', 1);
  * @example
- * // If beginDate = '2024-01-01T12:00:00Z', endDate = '2033-12-01T12:00:00Z', and repaymentPeriodicity = 3,
+ * // If beginDate = '2024-01-01T08:00:00+01:00', endDate = '2033-12-01T08:00:00+01:00', and repaymentPeriodicity = 3,
  * // it should return 40.
- * calcDurationPeriods('2024-01-01T12:00:00Z', '2033-12-01T12:00:00Z', 3);
+ * calcDurationPeriods('2024-01-01T08:00:00+01:00', '2033-12-01T08:00:00+01:00', 3);
  */
 function calcDurationPeriods(beginDate, endDate, repaymentPeriodicity = 1) {
   // Validate inputs

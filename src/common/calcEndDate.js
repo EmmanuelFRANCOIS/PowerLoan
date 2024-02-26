@@ -7,9 +7,9 @@ import validation from '../helpers/validation.js';
  * @param {number} durationTime - The duration of the loan in months.
  * @returns {string} The ending date of the loan in ISO 8601 format.
  * @example
- * // if beginDate = '2024-01-01T12:00:00Z', durationPeriods = 120,
- * // it should return '2033-12-01T12:00:00Z'.
- * calcEndDate('2024-01-01T12:00:00Z', 120);
+ * // if beginDate = '2024-01-01T08:00:00+01:00', durationPeriods = 120,
+ * // it should return '2033-12-01T08:00:00+01:00'.
+ * calcEndDate('2024-01-01T08:00:00+01:00', 120);
  */
 function calcEndDate(beginDate, durationTime) {
   // Validate beginDate as a valid date string
@@ -23,7 +23,7 @@ function calcEndDate(beginDate, durationTime) {
   }
 
   // Perform the calculation
-  const endDate = dayjs(beginDate).add(durationTime - 1, 'month').format();
+  const endDate = dayjs(beginDate).add(durationTime - 1, 'month').format('YYYY-MM-01T08:00:00Z');
 
   return endDate;
 }

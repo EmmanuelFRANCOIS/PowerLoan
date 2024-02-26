@@ -13,7 +13,7 @@ import validation from '../helpers/validation.js';
  * // For a loan of $10,000, with monthly payments of $500 over 2 years (24 periods):
  * calcInterestRateSimple(10000, 500, 24, 12);
  */
-function calcInterestRateSimple(capital, repayment, durationPeriods, repaymentPeriodicity) {
+function calcInterestRateSimpleInterest(capital, repayment, durationPeriods, repaymentPeriodicity) {
 
   // Validate inputs
   if (!validation.isInteger(capital) || capital < 100) {
@@ -51,4 +51,4 @@ function calcInterestRateSimple(capital, repayment, durationPeriods, repaymentPe
 
 }
 
-export default calcInterestRateSimple;
+export default calcInterestRateSimpleInterest;

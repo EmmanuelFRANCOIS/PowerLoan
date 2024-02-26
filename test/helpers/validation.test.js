@@ -45,7 +45,7 @@ describe('validation utilities', () => {
   test('isDate with a valid date', () => {
     expect(validation.isDate('2024-01-01')).toBe(true);
     expect(validation.isDate('2024-01-01T12:00:00')).toBe(true);
-    expect(validation.isDate('2024-01-01T12:00:00Z')).toBe(true);
+    expect(validation.isDate('2024-01-01T08:00:00+01:00')).toBe(true);
   });
 
   test('isDate with an invalid date', () => {

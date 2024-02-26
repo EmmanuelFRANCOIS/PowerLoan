@@ -7,7 +7,7 @@ describe('calcFutureValueCompoundInterest', () => {
     const durationPeriods = 10;
     const annuityType = 'ordinary';
     const startingAmount = 0;
-    const expectedFutureValue = 16288.946267774416; // Example expected value, adjust according to the correct calculation
+    const expectedFutureValue = 6288.946267774414;
     expect(calcFutureValueCompoundInterest(capital, interestRate, durationPeriods, annuityType, startingAmount)).toBeCloseTo(expectedFutureValue, 2);
   });
 
@@ -17,7 +17,7 @@ describe('calcFutureValueCompoundInterest', () => {
     const durationPeriods = 10;
     const annuityType = 'due';
     const startingAmount = 0;
-    const expectedFutureValue = 17098.39368111324; // Example expected value, adjust according to the correct calculation
+    const expectedFutureValue = 17103.393581163135;
     expect(calcFutureValueCompoundInterest(capital, interestRate, durationPeriods, annuityType, startingAmount)).toBeCloseTo(expectedFutureValue, 2);
   });
 

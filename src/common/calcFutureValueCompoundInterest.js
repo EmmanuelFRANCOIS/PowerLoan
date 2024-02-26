@@ -46,7 +46,7 @@ function calcFutureValueCompoundInterest(capital, interestRate, durationPeriods,
     futureValue = P.mul(n).plus(S);
   } else {
     // Compound interest formula for annuity
-    const compoundFactor = r.plus(1).pow(n);
+    const compoundFactor = r.plus(1).pow(durationPeriods);
     futureValue = P.times(compoundFactor);
 
     if (annuityType === "ordinary") {
@@ -58,7 +58,7 @@ function calcFutureValueCompoundInterest(capital, interestRate, durationPeriods,
     futureValue = futureValue.plus(S);
   }
 
-  return futureValue.toNumber();
+  return parseFloat(futureValue);
 }
 
 export default calcFutureValueCompoundInterest;

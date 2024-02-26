@@ -14,7 +14,7 @@ import calcPresentValueCompoundInterests from './calcPresentValueCompoundInteres
  * // For a loan with $10,000 principal, $500 monthly repayment over 2 years (24 periods):
  * calcInterestRateCompound(10000, 500, 24, 12);
  */
-function calcInterestRateCompound(capital, repayment, durationPeriods, repaymentPeriodicity) {
+function calcInterestRateCompoundInterest(capital, repayment, durationPeriods, repaymentPeriodicity) {
 
   // Validate inputs
   if (!validation.isInteger(capital) || capital < 100) {
@@ -58,4 +58,4 @@ function calcInterestRateCompound(capital, repayment, durationPeriods, repayment
   return midRate.times(repaymentPeriodicity).toNumber();
 }
 
-export default calcInterestRateCompound;
+export default calcInterestRateCompoundInterest;
