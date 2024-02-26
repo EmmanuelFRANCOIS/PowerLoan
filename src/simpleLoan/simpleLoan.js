@@ -548,7 +548,7 @@ class SimpleLoan extends EventEmitter {
       calcMode = mode;
     } else {
       calcMode = this._calculationMode;
-      console.warn('[calculateLoan] method', `Invalid [mode] ("${mode}") argument => fallback to [calculationMode] ("${this._calculationMode}")`);
+      console.warn('[calculateLoan] method', `Invalid [mode] ("${mode}") argument => fallback to [calculationMode] ("${this._calculationMode}").`);
     }
     let resultCalc = {};
     switch(calcMode) {
@@ -606,8 +606,16 @@ class SimpleLoan extends EventEmitter {
    * @fires SimpleLoan#propertiesChanged - Fires the [propertiesChanged] event if properties values changed.
    * @method
    */
-  setLoanData(loanData = {}) {
+  setLoanData(loanData = {}, calculateLoan = true) {
+
     const validation = this.validateLoanData(loanData);
+    const calcLoan = true;
+    if (this.isBoolean(calculateLoan)) {
+      calcLoan = calculateLoan;
+    } else {
+      calcLoan = true;
+      console.warn('[setLoanData] method', `Invalid [calculateLoan] ("${calculateLoan}") argument => fallback to [true].`);
+    }
 
     if (!validation.isValid) {
       // Handle or throw aggregated errors
@@ -627,13 +635,14 @@ class SimpleLoan extends EventEmitter {
       }
     });
 
-    // Emit a [propertiesChanged] event
+    // Emit a [propertiesChanged] event and calculate loan
     if (Object.keys(newProperties).length > 0) {
       this.emit('propertiesChanged', { 
         'timestamp': dayjs().format("yyyy-MM-ddTHH:mm:ss.SSSZ"),
         'oldProperties': oldProperties,
         'newProperties': newProperties
       });
+      if (calculateLoan) this.calculateLoan();
     }
   }
 

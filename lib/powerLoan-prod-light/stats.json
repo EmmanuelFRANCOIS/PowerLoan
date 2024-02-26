@@ -1,8 +1,8 @@
 {
-  "hash": "6b7c514579c3f047d9ad",
+  "hash": "5239710203fc9f070443",
   "version": "5.90.3",
-  "time": 1237,
-  "builtAt": 1708943419793,
+  "time": 1273,
+  "builtAt": 1708950291268,
   "publicPath": "auto",
   "outputPath": "/mnt/HPZB_DEV/Github/powerLoan/lib/powerLoan-prod-light",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "powerLoan-prod-light.js",
-      "size": 71277,
+      "size": 71858,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -23,7 +23,7 @@
         "related": {
           "sourceMap": "powerLoan-prod-light.js.map"
         },
-        "size": 71277
+        "size": 71858
       },
       "chunkNames": [
         "main"
@@ -36,13 +36,13 @@
         {
           "type": "sourceMap",
           "name": "powerLoan-prod-light.js.map",
-          "size": 90783,
+          "size": 91529,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 90783
+            "size": 91529
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -71,9 +71,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 66617,
+      "size": 67198,
       "sizes": {
-        "javascript": 65954,
+        "javascript": 66535,
         "runtime": 663
       },
       "names": [
@@ -89,7 +89,7 @@
       "auxiliaryFiles": [
         "powerLoan-prod-light.js.map"
       ],
-      "hash": "76a771bbaa949506e798",
+      "hash": "3d203fc5834a6cd6e841",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -158,7 +158,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "16:0-26",
+              "loc": "17:0-26",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -172,7 +172,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "596:23-28",
+              "loc": "597:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -186,7 +186,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "605:23-28",
+              "loc": "606:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -200,7 +200,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "613:23-28",
+              "loc": "614:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -214,7 +214,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "622:23-28",
+              "loc": "623:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -228,7 +228,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "694:23-28",
+              "loc": "703:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -242,7 +242,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "903:26-31",
+              "loc": "913:26-31",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -256,7 +256,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "914:24-29",
+              "loc": "924:24-29",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -270,7 +270,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "926:22-27",
+              "loc": "936:22-27",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -284,7 +284,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "937:30-35",
+              "loc": "947:30-35",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -298,105 +298,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "962:23-28",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:52-57",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:86-91",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:116-121",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:140-145",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:169-174",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1041:14-19",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1041:43-48",
+              "loc": "972:23-28",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -452,7 +354,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1047:156-161",
+              "loc": "1047:140-145",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -466,7 +368,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1047:185-190",
+              "loc": "1047:169-174",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -494,63 +396,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1051:44-49",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1051:72-77",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1051:101-106",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1053:118-123",
-              "moduleId": 581,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-              "module": "./src/index-light.js + 32 modules",
-              "moduleName": "./src/index-light.js + 32 modules",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1053:178-183",
+              "loc": "1051:43-48",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -606,7 +452,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1057:140-145",
+              "loc": "1057:156-161",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -620,7 +466,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1057:169-174",
+              "loc": "1057:185-190",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -662,7 +508,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1063:145-150",
+              "loc": "1061:72-77",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -676,7 +522,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1100:52-57",
+              "loc": "1061:101-106",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -690,7 +536,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1132:15-20",
+              "loc": "1063:118-123",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -704,7 +550,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1134:13-18",
+              "loc": "1063:178-183",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -718,7 +564,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1136:11-16",
+              "loc": "1067:52-57",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -732,7 +578,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1149:13-18",
+              "loc": "1067:86-91",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -746,7 +592,161 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1150:14-19",
+              "loc": "1067:116-121",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1067:140-145",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1067:169-174",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1071:14-19",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1071:44-49",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1073:145-150",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1110:52-57",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1142:15-20",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1144:13-18",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1146:11-16",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1159:13-18",
+              "moduleId": 581,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+              "module": "./src/index-light.js + 32 modules",
+              "moduleName": "./src/index-light.js + 32 modules",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1160:14-19",
               "moduleId": 581,
               "resolvedModuleId": null
             },
@@ -760,7 +760,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "16:0-26",
+              "loc": "17:0-26",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -774,7 +774,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "596:23-28",
+              "loc": "597:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -788,7 +788,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "605:23-28",
+              "loc": "606:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -802,7 +802,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "613:23-28",
+              "loc": "614:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -816,7 +816,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "622:23-28",
+              "loc": "623:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -830,7 +830,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "694:23-28",
+              "loc": "703:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -844,7 +844,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "903:26-31",
+              "loc": "913:26-31",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -858,7 +858,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "914:24-29",
+              "loc": "924:24-29",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -872,7 +872,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "926:22-27",
+              "loc": "936:22-27",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -886,7 +886,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "937:30-35",
+              "loc": "947:30-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -900,105 +900,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "962:23-28",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:52-57",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:86-91",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:116-121",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:140-145",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1037:169-174",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1041:14-19",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1041:43-48",
+              "loc": "972:23-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1054,7 +956,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1047:156-161",
+              "loc": "1047:140-145",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1068,7 +970,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1047:185-190",
+              "loc": "1047:169-174",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1096,63 +998,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1051:44-49",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1051:72-77",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1051:101-106",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1053:118-123",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "dayjs",
-              "loc": "1053:178-183",
+              "loc": "1051:43-48",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1208,7 +1054,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1057:140-145",
+              "loc": "1057:156-161",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1222,7 +1068,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1057:169-174",
+              "loc": "1057:185-190",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1264,7 +1110,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1063:145-150",
+              "loc": "1061:72-77",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1278,7 +1124,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1100:52-57",
+              "loc": "1061:101-106",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1292,7 +1138,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1132:15-20",
+              "loc": "1063:118-123",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1306,7 +1152,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1134:13-18",
+              "loc": "1063:178-183",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1320,7 +1166,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1136:11-16",
+              "loc": "1067:52-57",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1334,7 +1180,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1149:13-18",
+              "loc": "1067:86-91",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1348,7 +1194,161 @@
               "active": true,
               "explanation": "",
               "userRequest": "dayjs",
-              "loc": "1150:14-19",
+              "loc": "1067:116-121",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1067:140-145",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1067:169-174",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1071:14-19",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1071:44-49",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1073:145-150",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1110:52-57",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1142:15-20",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1144:13-18",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1146:11-16",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1159:13-18",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "dayjs",
+              "loc": "1160:14-19",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1395,9 +1395,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 58794,
+          "size": 59375,
           "sizes": {
-            "javascript": 58794
+            "javascript": 59375
           },
           "built": true,
           "codeGenerated": true,
@@ -1709,9 +1709,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 41127,
+              "size": 41708,
               "sizes": {
-                "javascript": 41127
+                "javascript": 41708
               },
               "built": true,
               "codeGenerated": false,
@@ -1784,7 +1784,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (ExpressionStatement) with side effects in source code at 1121:0-1151:3"
+                "Statement (ExpressionStatement) with side effects in source code at 1131:0-1161:3"
               ],
               "depth": 2
             },
@@ -3009,7 +3009,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "17:0-47",
+                  "loc": "18:0-47",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3023,7 +3023,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "989:15-35",
+                  "loc": "999:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3037,7 +3037,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "995:15-32",
+                  "loc": "1005:15-32",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3051,7 +3051,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1001:15-34",
+                  "loc": "1011:15-34",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3065,7 +3065,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1018:15-35",
+                  "loc": "1028:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3079,21 +3079,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1031:15-35",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-                  "module": "./src/simpleLoan/simpleLoan.js",
-                  "moduleName": "./src/simpleLoan/simpleLoan.js",
-                  "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-                  "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../helpers/validation",
-                  "loc": "1037:15-32",
+                  "loc": "1041:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3135,7 +3121,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1067:15-35",
+                  "loc": "1067:15-32",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3149,7 +3135,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1073:15-35",
+                  "loc": "1077:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3163,7 +3149,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1079:15-34",
+                  "loc": "1083:15-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3177,7 +3163,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1085:15-34",
+                  "loc": "1089:15-34",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3191,7 +3177,21 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/validation",
-                  "loc": "1100:15-32",
+                  "loc": "1095:15-34",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+                  "module": "./src/simpleLoan/simpleLoan.js",
+                  "moduleName": "./src/simpleLoan/simpleLoan.js",
+                  "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+                  "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../helpers/validation",
+                  "loc": "1110:15-32",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -3267,7 +3267,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../helpers/eventEmitter.js",
-                  "loc": "18:0-54",
+                  "loc": "19:0-54",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3281,7 +3281,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../helpers/eventEmitter.js",
-                  "loc": "1117:2-14",
+                  "loc": "1127:2-14",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -3360,7 +3360,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "uuid",
-                  "loc": "1124:8-14",
+                  "loc": "1134:8-14",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -5073,9 +5073,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 58794,
+      "size": 59375,
       "sizes": {
-        "javascript": 58794
+        "javascript": 59375
       },
       "built": true,
       "codeGenerated": true,
@@ -5383,9 +5383,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 41127,
+          "size": 41708,
           "sizes": {
-            "javascript": 41127
+            "javascript": 41708
           },
           "built": true,
           "codeGenerated": false,
@@ -5457,7 +5457,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 1121:0-1151:3"
+            "Statement (ExpressionStatement) with side effects in source code at 1131:0-1161:3"
           ],
           "depth": 2
         },
@@ -6669,7 +6669,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "17:0-47",
+              "loc": "18:0-47",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6683,7 +6683,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "989:15-35",
+              "loc": "999:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6697,7 +6697,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "995:15-32",
+              "loc": "1005:15-32",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6711,7 +6711,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1001:15-34",
+              "loc": "1011:15-34",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6725,7 +6725,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1018:15-35",
+              "loc": "1028:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6739,21 +6739,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1031:15-35",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "module": "./src/simpleLoan/simpleLoan.js",
-              "moduleName": "./src/simpleLoan/simpleLoan.js",
-              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../helpers/validation",
-              "loc": "1037:15-32",
+              "loc": "1041:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6795,7 +6781,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1067:15-35",
+              "loc": "1067:15-32",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6809,7 +6795,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1073:15-35",
+              "loc": "1077:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6823,7 +6809,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1079:15-34",
+              "loc": "1083:15-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6837,7 +6823,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1085:15-34",
+              "loc": "1089:15-34",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6851,7 +6837,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/validation",
-              "loc": "1100:15-32",
+              "loc": "1095:15-34",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "module": "./src/simpleLoan/simpleLoan.js",
+              "moduleName": "./src/simpleLoan/simpleLoan.js",
+              "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+              "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../helpers/validation",
+              "loc": "1110:15-32",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -6926,7 +6926,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../helpers/eventEmitter.js",
-              "loc": "18:0-54",
+              "loc": "19:0-54",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6940,7 +6940,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../helpers/eventEmitter.js",
-              "loc": "1117:2-14",
+              "loc": "1127:2-14",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -7018,7 +7018,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "uuid",
-              "loc": "1124:8-14",
+              "loc": "1134:8-14",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -8805,9 +8805,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 41127,
+      "size": 41708,
       "sizes": {
-        "javascript": 41127
+        "javascript": 41708
       },
       "built": true,
       "codeGenerated": false,
@@ -8879,7 +8879,7 @@
         "default"
       ],
       "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 1121:0-1151:3"
+        "Statement (ExpressionStatement) with side effects in source code at 1131:0-1161:3"
       ],
       "depth": 2
     },
@@ -10093,7 +10093,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "16:0-26",
+          "loc": "17:0-26",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10107,7 +10107,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "596:23-28",
+          "loc": "597:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10121,7 +10121,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "605:23-28",
+          "loc": "606:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10135,7 +10135,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "613:23-28",
+          "loc": "614:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10149,7 +10149,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "622:23-28",
+          "loc": "623:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10163,7 +10163,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "694:23-28",
+          "loc": "703:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10177,7 +10177,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "903:26-31",
+          "loc": "913:26-31",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10191,7 +10191,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "914:24-29",
+          "loc": "924:24-29",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10205,7 +10205,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "926:22-27",
+          "loc": "936:22-27",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10219,7 +10219,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "937:30-35",
+          "loc": "947:30-35",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10233,105 +10233,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "962:23-28",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:52-57",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:86-91",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:116-121",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:140-145",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:169-174",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1041:14-19",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1041:43-48",
+          "loc": "972:23-28",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10387,7 +10289,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1047:156-161",
+          "loc": "1047:140-145",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10401,7 +10303,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1047:185-190",
+          "loc": "1047:169-174",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10429,63 +10331,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1051:44-49",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1051:72-77",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1051:101-106",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1053:118-123",
-          "moduleId": 581,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
-          "module": "./src/index-light.js + 32 modules",
-          "moduleName": "./src/index-light.js + 32 modules",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1053:178-183",
+          "loc": "1051:43-48",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10541,7 +10387,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1057:140-145",
+          "loc": "1057:156-161",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10555,7 +10401,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1057:169-174",
+          "loc": "1057:185-190",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10597,7 +10443,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1063:145-150",
+          "loc": "1061:72-77",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10611,7 +10457,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1100:52-57",
+          "loc": "1061:101-106",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10625,7 +10471,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1132:15-20",
+          "loc": "1063:118-123",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10639,7 +10485,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1134:13-18",
+          "loc": "1063:178-183",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10653,7 +10499,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1136:11-16",
+          "loc": "1067:52-57",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10667,7 +10513,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1149:13-18",
+          "loc": "1067:86-91",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10681,7 +10527,161 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1150:14-19",
+          "loc": "1067:116-121",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1067:140-145",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1067:169-174",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1071:14-19",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1071:44-49",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1073:145-150",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1110:52-57",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1142:15-20",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1144:13-18",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1146:11-16",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1159:13-18",
+          "moduleId": 581,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/index-light.js|0e2b517b2f783d4cad589d36a0738b8d",
+          "module": "./src/index-light.js + 32 modules",
+          "moduleName": "./src/index-light.js + 32 modules",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1160:14-19",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -10695,7 +10695,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "16:0-26",
+          "loc": "17:0-26",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10709,7 +10709,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "596:23-28",
+          "loc": "597:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10723,7 +10723,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "605:23-28",
+          "loc": "606:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10737,7 +10737,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "613:23-28",
+          "loc": "614:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10751,7 +10751,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "622:23-28",
+          "loc": "623:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10765,7 +10765,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "694:23-28",
+          "loc": "703:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10779,7 +10779,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "903:26-31",
+          "loc": "913:26-31",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10793,7 +10793,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "914:24-29",
+          "loc": "924:24-29",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10807,7 +10807,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "926:22-27",
+          "loc": "936:22-27",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10821,7 +10821,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "937:30-35",
+          "loc": "947:30-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10835,105 +10835,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "962:23-28",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:52-57",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:86-91",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:116-121",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:140-145",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1037:169-174",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1041:14-19",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1041:43-48",
+          "loc": "972:23-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -10989,7 +10891,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1047:156-161",
+          "loc": "1047:140-145",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11003,7 +10905,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1047:185-190",
+          "loc": "1047:169-174",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11031,63 +10933,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1051:44-49",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1051:72-77",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1051:101-106",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1053:118-123",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "dayjs",
-          "loc": "1053:178-183",
+          "loc": "1051:43-48",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11143,7 +10989,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1057:140-145",
+          "loc": "1057:156-161",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11157,7 +11003,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1057:169-174",
+          "loc": "1057:185-190",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11199,7 +11045,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1063:145-150",
+          "loc": "1061:72-77",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11213,7 +11059,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1100:52-57",
+          "loc": "1061:101-106",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11227,7 +11073,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1132:15-20",
+          "loc": "1063:118-123",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11241,7 +11087,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1134:13-18",
+          "loc": "1063:178-183",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11255,7 +11101,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1136:11-16",
+          "loc": "1067:52-57",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11269,7 +11115,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1149:13-18",
+          "loc": "1067:86-91",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11283,7 +11129,161 @@
           "active": true,
           "explanation": "",
           "userRequest": "dayjs",
-          "loc": "1150:14-19",
+          "loc": "1067:116-121",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1067:140-145",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1067:169-174",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1071:14-19",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1071:44-49",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1073:145-150",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1110:52-57",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1142:15-20",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1144:13-18",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1146:11-16",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1159:13-18",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "dayjs",
+          "loc": "1160:14-19",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11385,7 +11385,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "17:0-47",
+          "loc": "18:0-47",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11399,7 +11399,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "989:15-35",
+          "loc": "999:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11413,7 +11413,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "995:15-32",
+          "loc": "1005:15-32",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11427,7 +11427,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1001:15-34",
+          "loc": "1011:15-34",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11441,7 +11441,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1018:15-35",
+          "loc": "1028:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11455,21 +11455,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1031:15-35",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "module": "./src/simpleLoan/simpleLoan.js",
-          "moduleName": "./src/simpleLoan/simpleLoan.js",
-          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
-          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../helpers/validation",
-          "loc": "1037:15-32",
+          "loc": "1041:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11511,7 +11497,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1067:15-35",
+          "loc": "1067:15-32",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11525,7 +11511,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1073:15-35",
+          "loc": "1077:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11539,7 +11525,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1079:15-34",
+          "loc": "1083:15-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11553,7 +11539,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1085:15-34",
+          "loc": "1089:15-34",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11567,7 +11553,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/validation",
-          "loc": "1100:15-32",
+          "loc": "1095:15-34",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "module": "./src/simpleLoan/simpleLoan.js",
+          "moduleName": "./src/simpleLoan/simpleLoan.js",
+          "resolvedModuleIdentifier": "/mnt/HPZB_DEV/Github/powerLoan/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/mnt/HPZB_DEV/Github/powerLoan/src/simpleLoan/simpleLoan.js",
+          "resolvedModule": "./src/simpleLoan/simpleLoan.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../helpers/validation",
+          "loc": "1110:15-32",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -11642,7 +11642,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../helpers/eventEmitter.js",
-          "loc": "18:0-54",
+          "loc": "19:0-54",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -11656,7 +11656,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../helpers/eventEmitter.js",
-          "loc": "1117:2-14",
+          "loc": "1127:2-14",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -11734,7 +11734,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "uuid",
-          "loc": "1124:8-14",
+          "loc": "1134:8-14",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -12946,7 +12946,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "uuid",
-          "loc": "15:0-36",
+          "loc": "16:0-36",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -12960,7 +12960,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "uuid",
-          "loc": "1124:8-14",
+          "loc": "1134:8-14",
           "moduleId": 581,
           "resolvedModuleId": null
         },
@@ -12974,7 +12974,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "uuid",
-          "loc": "15:0-36",
+          "loc": "16:0-36",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -12988,7 +12988,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "uuid",
-          "loc": "1124:8-14",
+          "loc": "1134:8-14",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -14748,19 +14748,19 @@
       "assets": [
         {
           "name": "powerLoan-prod-light.js",
-          "size": 71277
+          "size": 71858
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 71277,
+      "assetsSize": 71858,
       "auxiliaryAssets": [
         {
           "name": "powerLoan-prod-light.js.map",
-          "size": 90783
+          "size": 91529
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 90783,
+      "auxiliaryAssetsSize": 91529,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -14775,19 +14775,19 @@
       "assets": [
         {
           "name": "powerLoan-prod-light.js",
-          "size": 71277
+          "size": 71858
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 71277,
+      "assetsSize": 71858,
       "auxiliaryAssets": [
         {
           "name": "powerLoan-prod-light.js.map",
-          "size": 90783
+          "size": 91529
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 90783,
+      "auxiliaryAssetsSize": 91529,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
