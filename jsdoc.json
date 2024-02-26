@@ -9,7 +9,7 @@
     "excludePattern": "(^|\\/|\\\\)_"
   },
   "opts": {
-    "destination": "doc/powerloan",
+    "destination": "doc/powerLoan",
     "recurse": true,
     "template": "node_modules/docdash",
     "readme": "./README.md",

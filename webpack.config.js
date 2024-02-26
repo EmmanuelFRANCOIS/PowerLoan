@@ -9,8 +9,8 @@ module.exports = (env) => {
   const isLight        = env.type    === "light";
   const shouldMinify   = env.minify  === "true";
   const shouldAnalyze  = env.analyze === "true";
-  const outputPath     = `lib/powerloan${isProduction ? "-prod" : "-dev"}${isLight ? "-light" : ""}${shouldMinify ? "-min" : ""}/`;
-  const outputFileName = `powerloan${isProduction ? "-prod" : "-dev"}${isLight ? "-light" : ""}${shouldMinify ? ".min" : ""}`;
+  const outputPath     = `lib/powerLoan${isProduction ? "-prod" : "-dev"}${isLight ? "-light" : ""}${shouldMinify ? "-min" : ""}/`;
+  const outputFileName = `powerLoan${isProduction ? "-prod" : "-dev"}${isLight ? "-light" : ""}${shouldMinify ? ".min" : ""}`;
   const entryFile      = `./src/index${isLight ? "-light" : ""}.js`;
 
   const commonConfig = {

@@ -1,4 +1,53 @@
-import { v4 as uuidv4 } from 'uuid'; // For generating UUIDs
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>simpleLoan/simpleLoan.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/EmmanuelFRANCOIS/powerLoan/" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Classes</h3><ul><li><a href="SimpleLoan.html">SimpleLoan</a><ul class='methods'><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcCapital">calcCapital</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcDurationPeriods">calcDurationPeriods</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcInterestRate">calcInterestRate</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcInterestsAtPeriod">calcInterestsAtPeriod</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcPrincipalAtPeriod">calcPrincipalAtPeriod</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcRemainingCapitalAtPeriod">calcRemainingCapitalAtPeriod</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcRemainingRepaymentsAmountAtPeriod">calcRemainingRepaymentsAmountAtPeriod</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcRemainingRepaymentsNumberAtPeriod">calcRemainingRepaymentsNumberAtPeriod</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcRepayment">calcRepayment</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcRepaymentAtPeriod">calcRepaymentAtPeriod</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcTotalInterests">calcTotalInterests</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calcTotalRepayments">calcTotalRepayments</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#calculateLoan">calculateLoan</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#fromJSON">fromJSON</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#setLoanData">setLoanData</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#toJSON">toJSON</a></li><li data-type='method' style='display: none;'><a href="SimpleLoan.html#validateLoanData">validateLoanData</a></li></ul></li></ul><h3>Events</h3><ul><li><a href="SimpleLoan.html#event:calculated">calculated</a></li><li><a href="SimpleLoan.html#event:propertiesChanged">propertiesChanged</a></li><li><a href="SimpleLoan.html#event:propertyChanged">propertyChanged</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">simpleLoan/simpleLoan.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import { v4 as uuidv4 } from 'uuid'; // For generating UUIDs
 import dayjs from 'dayjs'; // For date manipulation
 import validation from '../helpers/validation';
 import EventEmitter from '../helpers/eventEmitter.js';
@@ -86,7 +135,7 @@ class SimpleLoan extends EventEmitter {
 
   /** 
    * ==========================================================================
-   *  PROPERTIES GETTERS & SETTERS
+   *  PROPERTIES GETTERS &amp; SETTERS
    * ==========================================================================
    */
   
@@ -608,7 +657,7 @@ class SimpleLoan extends EventEmitter {
     let oldProperties = {};
     let newProperties = {};
     Object.keys(SimpleLoan.defaultSimpleLoan).forEach(key => {
-      if (loanData.hasOwnProperty(key) && loanData[key] !== this[`_${key}`]) {
+      if (loanData.hasOwnProperty(key) &amp;&amp; loanData[key] !== this[`_${key}`]) {
         oldProperties[key] = this[`_${key}`];
         this[`_${key}`] = loanData[key];
         newProperties[key] = this[`_${key}`];
@@ -876,7 +925,7 @@ class SimpleLoan extends EventEmitter {
     switch (propertyName) {
 
       case 'id':
-        if (!validation.isInteger(propertyValue) || propertyValue < 1) {
+        if (!validation.isInteger(propertyValue) || propertyValue &lt; 1) {
           isValid = false;
           message = `[${propertyName}] (${propertyValue}) must be a positive integer >= 1.`;
         }
@@ -924,7 +973,7 @@ class SimpleLoan extends EventEmitter {
         break;
 
       case 'capital':
-        if (!validation.isInteger(propertyValue) || propertyValue < 100 || propertyValue > 1000000000) {
+        if (!validation.isInteger(propertyValue) || propertyValue &lt; 100 || propertyValue > 1000000000) {
           isValid = false;
           message = `[${propertyName}] (${propertyValue}) must be a positive integer between 100 and 1,000,000,000.`;
         }
@@ -973,27 +1022,27 @@ class SimpleLoan extends EventEmitter {
         break;
 
       case 'durationPeriods':
-        if (!validation.isInteger(propertyValue) || propertyValue < 1 || propertyValue > 2400) {
+        if (!validation.isInteger(propertyValue) || propertyValue &lt; 1 || propertyValue > 2400) {
           isValid = false;
           message = `[${propertyName}] (${propertyValue}) must be a positive integer between 1 and 2400 months.`;
         }
         break;
       case 'durationTime':
-        if (!validation.isInteger(propertyValue) || propertyValue < 1 || propertyValue > 2400) {
+        if (!validation.isInteger(propertyValue) || propertyValue &lt; 1 || propertyValue > 2400) {
           isValid = false;
           message = `[${propertyName}] (${propertyValue}) must be a positive integer between 1 and 2400 months.`;
         }
         break;
 
       case 'interestRate':
-        if (!validation.isNumber(propertyValue) || propertyValue < 0 || propertyValue > 1) {
+        if (!validation.isNumber(propertyValue) || propertyValue &lt; 0 || propertyValue > 1) {
           isValid = false;
           message = `[${propertyName}] (${propertyValue}) must be a positive decimal number between 0 and 1.`;
         }
         break;
 
       case 'repayment':
-        if (!validation.isNumber(propertyValue) || propertyValue < 1 || propertyValue > this._capital) {
+        if (!validation.isNumber(propertyValue) || propertyValue &lt; 1 || propertyValue > this._capital) {
           isValid = false;
           message = `[${propertyName}] (${propertyValue}) must be a positive decimal number between 1 and [capital] (${this._capital}).`;
         }
@@ -1033,3 +1082,32 @@ class SimpleLoan extends EventEmitter {
 }
 
 export default SimpleLoan;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Mon Feb 26 2024 09:32:45 GMT+0100 (heure normale d’Europe centrale) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>
