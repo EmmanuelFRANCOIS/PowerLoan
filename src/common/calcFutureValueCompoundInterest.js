@@ -8,7 +8,7 @@ import validation from '../helpers/validation.js';
  * @param {number} durationPeriods - The total number of periods.
  * @param {string} annuityType - The type of annuity ("ordinary" or "due"). Defaults to "ordinary".
  * @param {number} startingAmount - The starting amount ($). Defaults to 0.
- * @returns {string} The future value of the annuity.
+ * @returns {number} The future value of the annuity.
  * @throws Will throw an error for invalid input values.
  * @example
  * // For a loan with $10,000 capital, 5% interest rate, over 10 periods,
